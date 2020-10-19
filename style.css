@@ -1,0 +1,74 @@
+/*table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+th {
+    background: #395870;
+    color: #fff;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+th:first-child {
+    text-align: left;
+}
+tr:nth-child(even) {
+    background: #f0f0f2;
+}
+.game-title {
+    display: block;
+}
+.ply-registered, .ply-playing {
+    text-align: center;
+}
+*/
+
+
+
+/* SCHEDULE TASK */
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+th, td {
+    padding-bottom: 20px;
+    padding-top: 20px;
+     
+}
+tr:nth-child(odd) {
+    background: #f0f0f2;
+}
+
+thead td, tr th {
+    background-color: white;
+
+}
+
+thead th {
+    font-size: 36px;
+    text-align: left;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+
+tbody td {
+    color: #888;
+    border-top: 1px solid black;
+    padding-left: 10px;
+
+}
+.teacher-schedule {
+    display:block;
+}
+
+table a {
+    color: #888;
+}
